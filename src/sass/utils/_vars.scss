@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+:root {
+	--header-height: 3rem;
+
+	/* ========== COLORS ========== */
+	--title-color: #0b0a0a;
+	--text-color: #403a3a;
+	--text-color-light: #707070;
+	--body-color: #fcfcfc;
+	--container-color: #fafafa;
+	--container-color-alt: #f0efef;
+
+	/* ========== FONT ========== */
+	--body-font: "Poppins", sans-serif;
+
+	/* .5rem = 8px, 1rem = 16px, 1.5rem = 24px */
+	--h1-font-size: 1.5rem;
+	--h2-font-size: 1.25rem;
+	--h3-font-size: 1rem;
+	--normal-font-size: 0.95rem;
+	--small-font-size: 0.875rem;
+	--smaller-font-size: 0.81rem;
+
+	--font-medium: 500;
+	--font-semi-bold: 600;
+
+	/* ========== MARGENES ========== */
+	--mb-1: 0.5rem;
+	--mb-2: 1rem;
+	--mb-3: 1.5rem;
+
+	/* ========== z-index ========== */
+	--z-tooltip: 10;
+	--z-fixed: 100;
+}
+
+$pre-mobile: 479.98px;
+$mobile: 480px;
+$pre-tablet: 767.98px;
+$tablet: 768px;
+$pre-desctop: 1279.98px;
+$desctop: 1280px;
+
+// @media screen and (min-width: $tablet) {
+// 	:root {
+// 		--h1-font-size: 2.25rem;
+// 		--h2-font-size: 1.5rem;
+// 		--h3-font-size: 1.25rem;
+// 		--normal-font-size: 1rem;
+// 		--small-font-size: 0.87rem;
+// 		--smaller-font-size: 0.81rem;
+// 	}
+// }

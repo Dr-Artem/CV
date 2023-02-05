@@ -1,0 +1,12 @@
+.change-theme {
+	position: absolute;
+	right: 0;
+	top: 2.2rem;
+	display: flex;
+	font-size: 1.2rem;
+	color: var(--text-color);
+	cursor: pointer;
+}
+.change-theme:hover {
+	color: var(--title-color);
+}

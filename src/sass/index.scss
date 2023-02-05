@@ -1,2 +1,18 @@
-@import './common';
-@import './example';
+@import "./utils/common";
+@import "./utils/vars";
+@import "./utils/general";
+@import "./components/dark-light-button";
+@import "./components/cv";
+@import "./components/scroll";
+
+@import "./components/header";
+@import "./components/home";
+@import "./components/social";
+@import "./components/profile";
+@import "./components/education";
+@import "./components/skills";
+@import "./components/experience";
+@import "./components/certificates";
+@import "./components/references";
+@import "./components/languages";
+@import "./components/interests";

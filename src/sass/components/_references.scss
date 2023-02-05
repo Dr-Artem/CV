@@ -1,0 +1,18 @@
+.references__container {
+	@media screen and (min-width: 968px) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+.references__content {
+	gap: 0.25rem;
+}
+.references__subtitle {
+	color: var(--text-color-light);
+}
+.references__subtitle,
+.references__contact {
+	font-size: var(--smaller-font-size);
+}
+.references__title {
+	font-size: var(--h3-fone-size);
+}
