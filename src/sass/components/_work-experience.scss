@@ -1,0 +1,17 @@
+.work-experience__content {
+	display: flex;
+}
+.work-experience__data {
+	gap: 0.2rem;
+}
+.work-experience__title {
+	display: flex;
+	justify-content: space-between;
+	font-size: var(--h3-font-size);
+}
+.work-experiance__link {
+	color: inherit;
+}
+.work-experience__year {
+	font-size: var(--smaller-font-szie);
+}

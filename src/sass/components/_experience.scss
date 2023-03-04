@@ -21,10 +21,15 @@
 	transform: translate(7px, 0);
 }
 .experience__data {
-	gap: 0.5rem;
+	gap: 0.2rem;
 }
 .experience__title {
+	display: flex;
+	justify-content: space-between;
 	font-size: var(--h3-font-size);
+}
+.experiance__link {
+	color: inherit;
 }
 .experience__company {
 	font-size: var(--small-font-szie);

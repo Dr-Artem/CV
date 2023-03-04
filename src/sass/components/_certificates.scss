@@ -1,6 +1,10 @@
+.certificates__container {
+	grid-template-columns: repeat(2, 1fr);
+}
+
 .certificates__title {
 	font-size: var(--h3-font-size);
-	margin-bottom: var(--mb-1);
+	margin-bottom: 0.2rem;
 }
 .certificates__link {
 	display: block;
