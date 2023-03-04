@@ -2,10 +2,15 @@
 	grid-template-columns: repeat(2, 1fr);
 	gap: 0;
 }
+.skills__title {
+	display: block;
+	margin-bottom: var(--mb-1);
+	font-weight: var(--font-semi-bold);
+}
 .skills__name {
 	display: flex;
 	align-items: center;
-	margin-bottom: var(--mb-3);
+	margin-bottom: var(--mb-1);
 }
 .skills__circle {
 	display: inline-block;
